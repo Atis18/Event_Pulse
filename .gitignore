@@ -1,0 +1,33 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# CMake
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.dll
+*.pdb
+
+# Node.js / React
+node_modules/
+dist/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
